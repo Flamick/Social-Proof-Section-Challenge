@@ -1,0 +1,87 @@
+@media screen and (min-width:1100px) {
+    #main {
+        background: url("../images/bg-pattern-bottom-desktop.svg") no-repeat bottom right, url("../images/bg-pattern-top-desktop.svg") no-repeat top left, $light-color;
+        padding: 4rem 0;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "main main main rating rating rating"
+        "main main main rating rating rating"
+        "testimony testimony testimony testimony testimony testimony"
+        "testimony testimony testimony testimony testimony testimony";
+    }
+
+    .main-section {
+        grid-area: main;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: start;
+        padding-right: 10rem;
+
+        h1 {
+            font-size: 2.4rem;
+            line-height: 2.4rem;
+        }
+
+        p {
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: .4rem;
+        }
+    }
+
+    .rating-section {
+        grid-area: rating;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .rating-card {
+        flex-direction: row;
+        width: 440px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .rating {
+        padding: 0 2rem;
+        align-self: center;
+        display: flex;
+        align-content: center;
+    }
+
+    .rating-card-2 {
+        align-self: center;
+    }
+
+    .rating-card-3 {
+        align-self: flex-end;
+    }
+
+    .testimony-section {
+        grid-area: testimony;
+        flex-direction: row;
+        gap: 2rem;
+        height: 300px;
+        padding: 0;
+    }
+
+    .testimony-card {
+        height: 220px;
+    }
+    
+    .testimony-2 {
+        align-self: center;
+    }
+
+    .testimony-3 {
+        align-self: flex-end;
+    }
+}
