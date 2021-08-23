@@ -7,7 +7,7 @@ In this challenge I got to use a lot of grid and flexbox for positioning and hon
 
 
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/html5-and-css-with-sass-to-compile-the-css-lJ7nOJgex)
-- Live Site URL: [Live Website](https://sleepy-curie-1ee2d4.netlify.app/)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA/hub/html5-and-css-with-sass-to-compile-the-css-cvgNJmL5Z)
+- Live Site URL: [Live Website](https://elated-hugle-ceb7b2.netlify.app/)
 
 -  Mentor - [@Flamick](https://www.frontendmentor.io/profile/flamick)
